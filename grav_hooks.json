@@ -1,0 +1,12 @@
+{
+  "baseUri": "http://ddev-zebra-web.ddev_default",
+  "hookPrefix": "zbr",
+  "hooks": {
+    "update": [
+      "zbr_sliders",
+      "zbr_case_content",
+      "zbr_generic_content_blocks",
+      "zbr_dummy"
+    ]
+  }
+}
