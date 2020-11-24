@@ -10,6 +10,7 @@ class RequestGenerator {
             $data = [
                 'table' => $table,
                 'id' => $data['id'],
+                'debug_time' => time()
             ];
 
             $response = $client->request('POST', '/' . $config['hookPrefix'] . '/refresh-single', [
